@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
     spec.description   = ' This is a ruby wrapper for http://ipinfo.io. '
     spec.homepage      = 'https://ipinfo.io'
 
-    spec.add_runtime_dependency 'faraday', '~> 1.0'
+    spec.add_runtime_dependency 'faraday', '~> 2.0'
     spec.add_runtime_dependency 'json', '~> 2.1'
     spec.add_runtime_dependency 'lru_redux', '~> 1.1'
 
